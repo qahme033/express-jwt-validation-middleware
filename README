@@ -1,0 +1,14 @@
+
+Simple middleware function for express route jwt validations.
+
+Simple to use.
+
+    const jwt = require('express_jwt_validation_middleware');
+
+    app.use(jwt);
+
+Using this middleware means all requests will need to have a cookie named 'jwt'. 
+
+If the jwt was signed with the private key corresponding to the public key in your project root then the middleware stack continues.
+
+If not an error will be thrown and it is your applications job to handle it.
