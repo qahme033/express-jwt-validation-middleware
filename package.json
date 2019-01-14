@@ -1,0 +1,22 @@
+{
+  "name": "express_jwt_validation_middleware",
+  "version": "1.0.0",
+  "description": "Simple middleware function for express route jwt validations.",
+  "main": "espress_jwt_validation_middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qahme033/express-jwt-validation-middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qahme033/express-jwt-validation-middleware/issues"
+  },
+  "homepage": "https://github.com/qahme033/express-jwt-validation-middleware#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.4.0"
+  }
+}
