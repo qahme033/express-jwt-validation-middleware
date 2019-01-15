@@ -1,6 +1,6 @@
 {
-  "name": "express_jwt_validation_middleware",
-  "version": "1.0.0",
+  "name": "express-jwt-validation-middleware",
+  "version": "1.0.1",
   "description": "Simple middleware function for express route jwt validations.",
   "main": "espress_jwt_validation_middleware.js",
   "scripts": {
